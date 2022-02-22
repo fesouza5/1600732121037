@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define e_numero 10
+
+int main()
+{
+    printf("Numero decimal: %d\t", e_numero);
+    return 0;
+}
