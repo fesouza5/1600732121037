@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float e_metro, s_milimetro;
+    scanf ("%f", &e_metro);
+    s_milimetro = 1000* e_metro;
+    printf ("%f", s_milimetro);
+    return 0;
+    printf ("Hello World");
+
+    return 0;
+}
