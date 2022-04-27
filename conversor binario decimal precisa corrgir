@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int en1,en2,en3,en4,en5, s_decimal;
+    do{
+    printf("entre com o valor em binario:/n");
+    scanf ("%d", & en1);
+    } while((en1!=1))&(en1!=0));
+    do{
+        print("entre com o valor binario");
+        scanf("%d"&en2);
+    } 
+    while((en2!=1)&(en2!=0));
+    do {
+        printf("entre com o valor em binario");
+        scanf ("%d",&en3);
+    }
+    while((en3!=1)&(en3!=0));
+    do{
+        printf("entre com o valor em binario");
+        scanf("%d",&en4);
+        while((en4!=1)&(en4!=0));
+        do{
+            printf("entre com o valor em binario");
+            scanf("%d",&en5);
+            while((en5!=1)&(en5!=0));
+            s_dec = en1*pow(2,0)+en2*pow(2,1)+en3*pow(2,2)+en4*pow(2,3)+en5*pow(2,4);
+            printf("%d",s_decimal);
+            
+            
+            
+        
+    }
+    }
+
+
+
+    }
+        
+
+    return 0;
+}
