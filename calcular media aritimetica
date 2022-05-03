@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    float m, p;
+    int quantidade, variavel;
+    m=0;
+    variavel = 0;
+    printf("entre com a quantidade:");
+    scanf("%d",& quantidade);
+    
+    for (variavel=0 ; variavel < quantidade; variavel++)
+    {
+        printf ("entre com o valor do p:");
+        scanf("%f", & p);
+        m = m + p;
+        
+    }
+    m = m / quantidade;
+     printf(" o resultado é %f",m);
+
+        
+    }
+
+    
