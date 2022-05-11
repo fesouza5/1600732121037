@@ -30,5 +30,5 @@ int main()
     printf("o valor:%.2f.\n", s_saida [v_lambda_pos] [v_rpm_pos]);
     
                           
-    return 0;
+    return  0;
 }
